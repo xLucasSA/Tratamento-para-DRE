@@ -1,0 +1,6 @@
+__pycache__
+Folha Líquida
+venv
+.env
+*.xlsx
+*.pbix

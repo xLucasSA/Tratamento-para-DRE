@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres
+    volumes:
+      - ./dre.sql:/docker-entrypoint-initdb.d/dre.sql
+    environment:
+      POSTGRES_PASSWORD: "Amor@100"
+    ports:
+      - "5430:5432"
+    
